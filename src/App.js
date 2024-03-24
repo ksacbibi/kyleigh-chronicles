@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <VStack>
       <Navbar/>
-      <SecondaryNav/>
       <Hero/>
       </VStack>
     </div>
