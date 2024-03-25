@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import { VStack } from '@chakra-ui/layout';
 import Highlights from './components/Highlights';
-// import './App.css';
+import './App.css';
+import Latest from './components/Latest';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <VStack>
       <Navbar/>
       <Hero/>
+      <Latest/>
       <Highlights/>
       </VStack>
     </div>
