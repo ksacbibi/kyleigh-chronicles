@@ -2,7 +2,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import { VStack } from '@chakra-ui/layout';
-import SecondaryNav from './components/SecondaryNav';
+import Highlights from './components/Highlights';
 // import './App.css';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <VStack>
       <Navbar/>
       <Hero/>
+      <Highlights/>
       </VStack>
     </div>
   );

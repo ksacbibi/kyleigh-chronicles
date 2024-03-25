@@ -5,7 +5,7 @@ import '../App.css';
 
 function Navbar() {
     return (
-        <Box position="fixed" zIndex={1} width="100%">
+        <Box position="fixed" zIndex={2} width="100%">
         <Flex
             justify="space-between"
             width="100%"
