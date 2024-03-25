@@ -6,7 +6,7 @@ import React from "react";
 function Latest() {
   return (
     <Flex w="100vw" h="85vh" bgColor="#FFF6F6" justifyContent="center">
-      <Box margin="50px 100px 50px 100px" border="1px solid #7E7E7E" w="100%">
+      <Box margin="50px 100px 50px 100px" border="1px solid #7E7E7E">
         <Box w="100%" margin="100px 200px 100px 200px">
           <HStack maxWidth="calc(100% - 400px)" justifyContent="space-between">
             <Box textAlign="left" width="350px" >
