@@ -6,7 +6,7 @@ import React from "react";
 function Latest() {
   return (
     <Flex w="100vw" h="85vh" bgColor="#FFF6F6" justifyContent="center">
-      {/* <Box margin="50px 100px 50px 100px" border="1px solid #7E7E7E"/> */}
+      <Box w="80%" h="65%" margin="80px 100px 50px 100px" border="1px solid #7E7E7E" position="absolute" />
         <Box w="100%" margin="100px 300px 100px 300px" alignContent="center" justifyContent="center" padding="55px 0 55px 0">
           <HStack w="100%" justifyContent="space-between">
             <Box textAlign="left" width="350px" >
@@ -34,7 +34,6 @@ function Latest() {
             <Image src="herobg.jpg" alt="" w={294} h={316} objectFit="cover" objectPosition="center"/>
           </HStack>
         </Box>
-      {/* </Box> */}
     </Flex>
   );
 }
