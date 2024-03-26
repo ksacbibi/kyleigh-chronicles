@@ -5,6 +5,7 @@ import { VStack } from '@chakra-ui/layout';
 import Highlights from './components/Highlights';
 import './App.css';
 import Latest from './components/Latest';
+import Author from './components/Author';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero/>
       <Latest/>
       <Highlights/>
+      <Author/>
       </VStack>
     </div>
   );
