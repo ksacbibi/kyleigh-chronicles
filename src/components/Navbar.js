@@ -2,6 +2,7 @@ import { Box, Button, Flex, HStack, Image } from "@chakra-ui/react";
 import React from "react";
 import SecondaryNav from "./SecondaryNav";
 import '../App.css';
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -16,33 +17,33 @@ function Navbar() {
                 <Image src="logo.png" alt="" height={50} padding="5px 60px 5px 60px"/>
             </Box>
             <HStack spacing="60" flexWrap="wrap" margin={5} paddingRight={60} className="poppins-regular">
-                <Button
-                    variant="link"
-                    as="a"
-                    href="/"
-                    color="black"
-                    textDecoration="none"
+                <Link
+                    to="/"
+                    style={{
+                        color: "black",
+                        textDecoration: "none"
+                    }}
                 >
                     HOME
-                </Button>
-                <Button
-                    variant="link"
-                    as="a"
-                    href="/about"
-                    color="black" 
-                    textDecoration="none"
+                </Link>
+                <Link
+                    to="/about"
+                    style={{
+                        color: "black",
+                        textDecoration: "none"
+                    }}
                 >
                     ABOUT
-                </Button>
-                <Button
-                    variant="link"
-                    as="a"
-                    href="/contact"
-                    color="black" 
-                    textDecoration="none"
+                </Link>
+                <Link
+                    to="/contact"
+                    style={{
+                        color: "black",
+                        textDecoration: "none"
+                    }}
                 >
                     CONTACT 
-                </Button>
+                </Link>
             </HStack>
         </Flex>
         <SecondaryNav/>
