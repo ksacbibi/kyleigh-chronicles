@@ -1,23 +1,21 @@
 // import { ChakraProvider } from '@chakra-ui/react'
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
 import { VStack } from '@chakra-ui/layout';
 import Highlights from './components/Highlights';
+import { Routes, Route } from "react-router-dom";
 import './App.css';
-import Latest from './components/Latest';
-import Author from './components/Author';
-import Footer from './components/Footer/Footer';
+import ComingSoon from './components/ComingSoon'
+import Home from './components/Home'
 
 function App() {
   return (
     <div className="App">
       <VStack>
       <Navbar/>
-      <Hero/>
-      <Latest/>
-      <Highlights/>
-      <Author/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<ComingSoon/>} />
+      </Routes>
       </VStack>
     </div>
   );

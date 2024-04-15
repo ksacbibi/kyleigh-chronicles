@@ -9,7 +9,7 @@ function SecondaryNav() {
                 <Button
                     variant="link"
                     as="a"
-                    href="/"
+                    href="/latest"
                     color="black"
                     textDecoration="none"
                 >
@@ -18,7 +18,7 @@ function SecondaryNav() {
                 <Button
                     variant="link"
                     as="a"
-                    href="/"
+                    href="/lifestyle"
                     color="black"
                     textDecoration="none"
                 >
@@ -27,7 +27,7 @@ function SecondaryNav() {
                 <Button
                     variant="link"
                     as="a"
-                    href="/"
+                    href="/creating"
                     color="black"
                     textDecoration="none"
                 >
@@ -36,7 +36,7 @@ function SecondaryNav() {
                 <Button
                     variant="link"
                     as="a"
-                    href="/"
+                    href="/school"
                     color="black"
                     textDecoration="none"
                 >
@@ -45,7 +45,7 @@ function SecondaryNav() {
                 <Button
                     variant="link"
                     as="a"
-                    href="/"
+                    href="/travel"
                     color="black"
                     textDecoration="none"
                 >

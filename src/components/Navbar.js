@@ -28,7 +28,7 @@ function Navbar() {
                 <Button
                     variant="link"
                     as="a"
-                    href="/"
+                    href="/about"
                     color="black" 
                     textDecoration="none"
                 >
@@ -37,7 +37,7 @@ function Navbar() {
                 <Button
                     variant="link"
                     as="a"
-                    href="/"
+                    href="/contact"
                     color="black" 
                     textDecoration="none"
                 >
