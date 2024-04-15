@@ -31,7 +31,7 @@ function Latest() {
                 read more
               </Button>
             </Box>
-            <Image src="herobg.jpg" alt="" w={294} h={316} objectFit="cover" objectPosition="center"/>
+            <Image src="herobg.jpg" alt="" w="18em" h={316} objectFit="cover" objectPosition="center"/>
           </HStack>
         </Box>
     </Flex>

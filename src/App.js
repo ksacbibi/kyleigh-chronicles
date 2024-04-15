@@ -6,6 +6,7 @@ import Highlights from './components/Highlights';
 import './App.css';
 import Latest from './components/Latest';
 import Author from './components/Author';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Latest/>
       <Highlights/>
       <Author/>
+      <Footer/>
       </VStack>
     </div>
   );
