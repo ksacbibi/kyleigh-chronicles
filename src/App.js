@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import ComingSoon from './components/ComingSoon'
 import Home from './components/Home'
+import BlogPost from './components/BlogPost';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/creating" element={<ComingSoon/>} />
         <Route path="/school" element={<ComingSoon/>} />
         <Route path="/travel" element={<ComingSoon/>} />
+        <Route path="/blogpost" element={<BlogPost/>} />
       </Routes>
       </VStack>
       </Router>

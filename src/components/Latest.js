@@ -2,6 +2,7 @@ import { Button } from "@chakra-ui/button";
 import { Image } from "@chakra-ui/image";
 import { Box, Flex, HStack } from "@chakra-ui/layout";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Latest() {
   return (
@@ -27,9 +28,9 @@ function Latest() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
               </p>
-              <Button as="a" variant="link" href="/" className="metal-regular" color="black" fontSize="20px" >
+              <Link to="/blogpost" className="metal-regular" style={{color:"black", fontSize:"20px", position: "relative", zIndex: "1"}} >
                 read more
-              </Button>
+              </Link>
             </Box>
             <Image src="herobg.jpg" alt="" w="18em" h={316} objectFit="cover" objectPosition="center"/>
           </HStack>
