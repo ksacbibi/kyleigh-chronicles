@@ -7,18 +7,18 @@ import './App.css';
 import ComingSoon from './components/ComingSoon'
 import Home from './components/Home'
 import BlogPost from './components/BlogPost';
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
-      <Router>
       <VStack>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<ComingSoon/>} />
         <Route path="/contact" element={<ComingSoon/>} />
-        <Route path="/latest" element={<ComingSoon/>} />
+        <Route path="/latest" element={<BlogPost/>} />
         <Route path="/lifestyle" element={<ComingSoon/>} />
         <Route path="/creating" element={<ComingSoon/>} />
         <Route path="/school" element={<ComingSoon/>} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/blogpost" element={<BlogPost/>} />
       </Routes>
       </VStack>
-      </Router>
+      <ScrollToTop />
     </div>
   );
 }
