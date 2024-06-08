@@ -6,7 +6,7 @@ const postSchema = new Schema({
     date: {type:Date, default: Date.now},
     subtitle: {type:String},
     description: {type:String},
-    content: {type:String}
+    content: {type:Array}
 })
 
 const Posts = mongoose.model('Posts', postSchema, 'posts')
